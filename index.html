@@ -3,144 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Muhammad Irfansyah</title>
+    <title>Muhammad Irfansyah</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Muhammad Irfansyah</h1>
-        <p>Website Personal | Teknik Informatika</p>
+        <div class="header-content">
+            <p>PERSONAL WEBSITE</p>
+            <h1>Muhammad Irfansyah</h1>
+            <span>Mahasiswa Teknik Informatika</span>
+        </div>
     </header>
 
     <nav>
         <a href="#home" onclick="tampil('home')">Home</a>
         <a href="#tentang" onclick="tampil('tentang')">Tentang Saya</a>
         <a href="#pengalaman" onclick="tampil('pengalaman')">Pengalaman</a>
-        <a href="https://www.dicoding.com/" target="_blank">Profil Dicoding</a>
+        <a href="https://www.dicoding.com/" target="_blank">Dicoding ↗</a>
     </nav>
 
     <div class="isi">
 
         <main>
 
+            <!-- HOME -->
             <article id="home" class="halaman aktif">
-                <p class="judul-kecil">SELAMAT DATANG 👋</p>
 
-                <h2>Halo, saya Muhammad Irfansyah</h2>
+                <p class="label">WELCOME</p>
 
-                <p>
-                    Selamat datang di website personal saya.
-                    Website ini dibuat sebagai tugas akhir belajar
-                    dasar pemrograman web menggunakan HTML dan CSS.
+                <h2>Selamat Datang di Website Saya</h2>
+
+                <p class="pembuka">
+                    Halo, saya <b>Muhammad Irfansyah</b>.
+                    Saya adalah mahasiswa Teknik Informatika yang
+                    memiliki ketertarikan pada teknologi, pemrograman
+                    web, dan jaringan komputer.
                 </p>
 
-                <button onclick="tampil('tentang')">
-                    Kenal Saya Lebih Jauh →
-                </button>
+                <div class="home-info">
+
+                    <div>
+                        <h3>01</h3>
+                        <p>Teknik Informatika</p>
+                    </div>
+
+                    <div>
+                        <h3>02</h3>
+                        <p>Universitas Trunojoyo Madura</p>
+                    </div>
+
+                    <div>
+                        <h3>03</h3>
+                        <p>Teknologi & Jaringan</p>
+                    </div>
+
+                </div>
+
             </article>
 
 
+            <!-- TENTANG SAYA -->
             <article id="tentang" class="halaman">
-                <p class="judul-kecil">TENTANG SAYA</p>
+
+                <p class="label">ABOUT ME</p>
 
                 <h2>Tentang Saya</h2>
 
                 <p>
-                    Nama saya <b>Muhammad Irfansyah</b>.
+                    Perkenalkan, nama saya <b>Muhammad Irfansyah</b>.
                     Saya merupakan mahasiswa <b>Teknik Informatika</b>
                     di <b>Universitas Trunojoyo Madura</b>.
                 </p>
 
                 <p>
-                    Saya tertarik dengan dunia teknologi, khususnya
-                    pemrograman web dan jaringan komputer. Saya juga
-                    terus belajar untuk menambah pengalaman dan
-                    kemampuan di bidang teknologi informasi.
+                    Saya memiliki ketertarikan terhadap perkembangan
+                    teknologi dan ingin terus meningkatkan kemampuan
+                    di bidang teknologi informasi.
+                </p>
+
+                <p>
+                    Beberapa bidang yang sedang saya pelajari adalah
+                    pemrograman web, Python, struktur data, jaringan
+                    komputer, serta dasar-dasar server.
                 </p>
 
                 <div class="data">
+
                     <div>
-                        <b>Nama</b>
-                        <span>Muhammad Irfansyah</span>
+                        <small>NAMA</small>
+                        <strong>Muhammad Irfansyah</strong>
                     </div>
 
                     <div>
-                        <b>Jurusan</b>
-                        <span>Teknik Informatika</span>
+                        <small>JURUSAN</small>
+                        <strong>Teknik Informatika</strong>
                     </div>
 
                     <div>
-                        <b>Universitas</b>
-                        <span>Universitas Trunojoyo Madura</span>
+                        <small>UNIVERSITAS</small>
+                        <strong>Universitas Trunojoyo Madura</strong>
                     </div>
 
                     <div>
-                        <b>Minat</b>
-                        <span>Web & Jaringan Komputer</span>
+                        <small>MINAT</small>
+                        <strong>Web & Jaringan Komputer</strong>
                     </div>
+
                 </div>
+
             </article>
 
 
+            <!-- PENGALAMAN -->
             <article id="pengalaman" class="halaman">
-                <p class="judul-kecil">PENGALAMAN</p>
 
-                <h2>Pengalaman Saya</h2>
+                <p class="label">EXPERIENCE</p>
+
+                <h2>Pengalaman</h2>
 
                 <div class="pengalaman">
-                    <h3>Magang di PT Indo Bismar</h3>
 
-                    <p>
-                        Saat masih bersekolah di SMK, saya pernah
-                        melaksanakan kegiatan magang di
-                        <b>PT Indo Bismar</b>.
-                    </p>
+                    <div class="tahun">
+                        SMK
+                    </div>
 
-                    <p>
-                        Saya ditempatkan pada bagian <b>penjualan</b>.
-                        Dari pengalaman tersebut saya belajar mengenai
-                        proses penjualan, komunikasi dengan pelanggan,
-                        serta mendapatkan gambaran secara langsung
-                        mengenai dunia kerja.
-                    </p>
+                    <div>
+                        <h3>Praktik Kerja Lapangan</h3>
+
+                        <p class="tempat">
+                            PT Indo Bismar — Bagian Penjualan
+                        </p>
+
+                        <p>
+                            Saat bersekolah di <b>SMK YPM 1 Taman</b>,
+                            saya pernah melaksanakan kegiatan magang
+                            atau praktik kerja lapangan di
+                            <b>PT Indo Bismar</b>.
+                        </p>
+
+                        <p>
+                            Saya ditempatkan pada bagian <b>penjualan</b>.
+                            Dari pengalaman tersebut saya mendapatkan
+                            pengalaman mengenai proses penjualan,
+                            komunikasi dengan pelanggan, serta mengenal
+                            lingkungan kerja secara langsung.
+                        </p>
+                    </div>
+
                 </div>
 
                 <div class="pengalaman">
-                    <h3>Asisten Praktikum</h3>
 
-                    <p>
-                        Selain kegiatan perkuliahan, saya juga memiliki
-                        pengalaman sebagai asisten praktikum. Dalam
-                        kegiatan praktikum saya membantu mahasiswa
-                        memahami materi dan latihan pemrograman.
-                    </p>
+                    <div class="tahun">
+                        SAAT INI
+                    </div>
+
+                    <div>
+                        <h3>Mahasiswa Teknik Informatika</h3>
+
+                        <p class="tempat">
+                            Universitas Trunojoyo Madura
+                        </p>
+
+                        <p>
+                            Saat ini saya sedang menempuh pendidikan
+                            di Universitas Trunojoyo Madura dan terus
+                            mengembangkan kemampuan di bidang teknologi
+                            informasi.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="pengalaman">
-                    <h3>Belajar Teknologi</h3>
-
-                    <p>
-                        Saat ini saya terus belajar mengenai pemrograman
-                        web, Python, struktur data, jaringan komputer,
-                        dan teknologi informasi.
-                    </p>
-                </div>
             </article>
 
         </main>
 
 
+        <!-- PROFIL -->
         <aside>
-            <h2>Profil</h2>
 
-            <img src="gambar.jpg.jpeg" alt="Foto Muhammad Irfansyah">
+            <p class="profil-label">PROFILE</p>
 
-            <h3>Muhammad Irfansyah</h3>
+            <img src="gambar.jpg.jpeg" alt="Foto Profil Muhammad Irfansyah">
 
-            <p>
-                <b>Teknik Informatika</b>
+            <h2>Muhammad Irfansyah</h2>
+
+            <p class="jurusan">
+                Teknik Informatika
             </p>
 
             <p>
@@ -149,13 +202,14 @@
 
             <hr>
 
-            <p>
-                Minat:
-                <br>
-                Jaringan Komputer
-                <br>
-                Pemrograman Web
-            </p>
+            <div class="minat">
+                <small>INTEREST</small>
+
+                <p>Jaringan Komputer</p>
+                <p>Pemrograman Web</p>
+                <p>Teknologi Informasi</p>
+            </div>
+
         </aside>
 
     </div>
@@ -163,12 +217,14 @@
 
     <footer>
         <p>© 2026 Muhammad Irfansyah</p>
-        <p>Belajar • Berkembang • Berkarya</p>
+        <p>Personal Website</p>
     </footer>
 
 
     <script>
+
         function tampil(id) {
+
             let halaman = document.querySelectorAll(".halaman");
 
             halaman.forEach(function(item) {
@@ -177,8 +233,12 @@
 
             document.getElementById(id).classList.add("aktif");
 
-            window.scrollTo(0, 0);
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
         }
+
     </script>
 
 </body>
