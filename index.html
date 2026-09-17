@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Irfansyah</title>
+    <title>Website Muhammad Irfansyah</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Website Irfansyah</h1>
-        <p>Belajar Dasar Pemrograman Web</p>
+        <h1>Muhammad Irfansyah</h1>
+        <p>Website Personal | Teknik Informatika</p>
     </header>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#tentang">Tentang</a>
-        <a href="#project">Project</a>
+        <a href="#home" onclick="tampil('home')">Home</a>
+        <a href="#tentang" onclick="tampil('tentang')">Tentang Saya</a>
+        <a href="#pengalaman" onclick="tampil('pengalaman')">Pengalaman</a>
         <a href="https://www.dicoding.com/" target="_blank">Profil Dicoding</a>
     </nav>
 
@@ -25,45 +25,161 @@
 
         <main>
 
-            <article id="home">
-                <h2>Halo!</h2>
+            <article id="home" class="halaman aktif">
+                <p class="judul-kecil">SELAMAT DATANG 👋</p>
+
+                <h2>Halo, saya Muhammad Irfansyah</h2>
+
                 <p>
-                    Nama saya Irfansyah. Saya sedang belajar
-                    pemrograman web menggunakan HTML dan CSS.
+                    Selamat datang di website personal saya.
+                    Website ini dibuat sebagai tugas akhir belajar
+                    dasar pemrograman web menggunakan HTML dan CSS.
                 </p>
+
+                <button onclick="tampil('tentang')">
+                    Kenal Saya Lebih Jauh →
+                </button>
             </article>
 
-            <article id="tentang">
+
+            <article id="tentang" class="halaman">
+                <p class="judul-kecil">TENTANG SAYA</p>
+
                 <h2>Tentang Saya</h2>
+
                 <p>
-                    Saya adalah mahasiswa Teknik Informatika.
-                    Saya tertarik dengan teknologi dan jaringan komputer.
+                    Nama saya <b>Muhammad Irfansyah</b>.
+                    Saya merupakan mahasiswa <b>Teknik Informatika</b>
+                    di <b>Universitas Trunojoyo Madura</b>.
                 </p>
+
+                <p>
+                    Saya tertarik dengan dunia teknologi, khususnya
+                    pemrograman web dan jaringan komputer. Saya juga
+                    terus belajar untuk menambah pengalaman dan
+                    kemampuan di bidang teknologi informasi.
+                </p>
+
+                <div class="data">
+                    <div>
+                        <b>Nama</b>
+                        <span>Muhammad Irfansyah</span>
+                    </div>
+
+                    <div>
+                        <b>Jurusan</b>
+                        <span>Teknik Informatika</span>
+                    </div>
+
+                    <div>
+                        <b>Universitas</b>
+                        <span>Universitas Trunojoyo Madura</span>
+                    </div>
+
+                    <div>
+                        <b>Minat</b>
+                        <span>Web & Jaringan Komputer</span>
+                    </div>
+                </div>
             </article>
 
-            <article id="project">
-                <h2>Project</h2>
-                <p>
-                    Saat ini saya sedang belajar membuat website
-                    sederhana menggunakan HTML dan CSS.
-                </p>
+
+            <article id="pengalaman" class="halaman">
+                <p class="judul-kecil">PENGALAMAN</p>
+
+                <h2>Pengalaman Saya</h2>
+
+                <div class="pengalaman">
+                    <h3>Magang di PT Indo Bismar</h3>
+
+                    <p>
+                        Saat masih bersekolah di SMK, saya pernah
+                        melaksanakan kegiatan magang di
+                        <b>PT Indo Bismar</b>.
+                    </p>
+
+                    <p>
+                        Saya ditempatkan pada bagian <b>penjualan</b>.
+                        Dari pengalaman tersebut saya belajar mengenai
+                        proses penjualan, komunikasi dengan pelanggan,
+                        serta mendapatkan gambaran secara langsung
+                        mengenai dunia kerja.
+                    </p>
+                </div>
+
+                <div class="pengalaman">
+                    <h3>Asisten Praktikum</h3>
+
+                    <p>
+                        Selain kegiatan perkuliahan, saya juga memiliki
+                        pengalaman sebagai asisten praktikum. Dalam
+                        kegiatan praktikum saya membantu mahasiswa
+                        memahami materi dan latihan pemrograman.
+                    </p>
+                </div>
+
+                <div class="pengalaman">
+                    <h3>Belajar Teknologi</h3>
+
+                    <p>
+                        Saat ini saya terus belajar mengenai pemrograman
+                        web, Python, struktur data, jaringan komputer,
+                        dan teknologi informasi.
+                    </p>
+                </div>
             </article>
 
         </main>
 
+
         <aside>
             <h2>Profil</h2>
-            <img src="gambar.jpg.jpeg" alt="Foto Profil">
-            <p>Nama: Irfansyah</p>
-            <p>Jurusan: Teknik Informatika</p>
-            <p>Minat: Jaringan Komputer</p>
+
+            <img src="gambar.jpg.jpeg" alt="Foto Muhammad Irfansyah">
+
+            <h3>Muhammad Irfansyah</h3>
+
+            <p>
+                <b>Teknik Informatika</b>
+            </p>
+
+            <p>
+                Universitas Trunojoyo Madura
+            </p>
+
+            <hr>
+
+            <p>
+                Minat:
+                <br>
+                Jaringan Komputer
+                <br>
+                Pemrograman Web
+            </p>
         </aside>
 
     </div>
 
+
     <footer>
-        <p>© 2026 Irfansyah</p>
+        <p>© 2026 Muhammad Irfansyah</p>
+        <p>Belajar • Berkembang • Berkarya</p>
     </footer>
+
+
+    <script>
+        function tampil(id) {
+            let halaman = document.querySelectorAll(".halaman");
+
+            halaman.forEach(function(item) {
+                item.classList.remove("aktif");
+            });
+
+            document.getElementById(id).classList.add("aktif");
+
+            window.scrollTo(0, 0);
+        }
+    </script>
 
 </body>
 </html>
